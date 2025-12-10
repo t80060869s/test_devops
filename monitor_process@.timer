@@ -1,0 +1,10 @@
+[Unit]
+Description=Run monitor_process every minute for process %I
+
+[Timer]
+OnCalendar=minutely
+Persistent=true
+Unit=monitor_process@%i.service
+
+[Install]
+WantedBy=timers.target

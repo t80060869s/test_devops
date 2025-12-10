@@ -1,0 +1,3 @@
+#!/bin/bash
+
+read -p "Process 'test' started successfully. Press ENTER for terminate it..." REPLY
