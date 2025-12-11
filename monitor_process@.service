@@ -1,5 +1,5 @@
 [Unit]
-Description=Monitor test process for process %I
+Description=Monitor for process %I
 
 [Service]
 Type=oneshot
